@@ -2,9 +2,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Hi bby
-    </div>
+    <main>
+          <h1>How fast do you type?</h1>
+          <textarea />
+          <h4>Time remaining: ???</h4>
+          <button>START</button>
+          <h1>Word Count: ???</h1>
+      </main>
   );
 }
 
