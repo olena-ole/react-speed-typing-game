@@ -36,6 +36,7 @@ function App() {
     setText('');
     setTimeRemaining(STARTING_TIME);
     setWordCount(0);
+    textBoxRef.current.disabled = false;
     textBoxRef.current.focus()
   };
 
